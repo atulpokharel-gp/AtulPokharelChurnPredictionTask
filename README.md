@@ -1,13 +1,5 @@
 "# AtulPokharelChurnPredictionTask" 
 
-
-
-
-
-```
-### your program is  ready
-## contact for more details
-```
 ```bash
 atulpokharel12@gmail.com
 ```
