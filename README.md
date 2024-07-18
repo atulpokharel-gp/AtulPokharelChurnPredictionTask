@@ -55,10 +55,6 @@ To run this project you would need:
   python3
   pip3 install -r requirements.txt
 ```
-``` 
- install cudn according to tensorflow-gpu version
-```
-
 - Run the project
 ```python3
   python model_development.py
