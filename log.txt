@@ -1,0 +1,79 @@
+  State  Account length  ...  Customer service calls  Churn
+0    KS             128  ...                       1  False
+1    OH             107  ...                       1  False
+2    NJ             137  ...                       0  False
+3    OH              84  ...                       2  False
+4    OK              75  ...                       3  False
+
+[5 rows x 20 columns]
+State                     0
+Account length            0
+Area code                 0
+International plan        0
+Voice mail plan           0
+Number vmail messages     0
+Total day minutes         0
+Total day calls           0
+Total day charge          0
+Total eve minutes         0
+Total eve calls           0
+Total eve charge          0
+Total night minutes       0
+Total night calls         0
+Total night charge        0
+Total intl minutes        0
+Total intl calls          0
+Total intl charge         0
+Customer service calls    0
+Churn                     0
+dtype: int64
+   State  Account length  ...  Customer service calls  Churn
+0     16             128  ...                       1      0
+1     35             107  ...                       1      0
+2     31             137  ...                       0      0
+3     35              84  ...                       2      0
+4     36              75  ...                       3      0
+
+[5 rows x 20 columns]
+      State  Account length  ...  Customer service calls  Churn
+0 -0.672700        0.692163  ...               -0.429172      0
+1  0.600844        0.161278  ...               -0.429172      0
+2  0.332730        0.919686  ...               -1.191955      0
+3  0.600844       -0.420168  ...                0.333610      0
+4  0.667873       -0.647691  ...                1.096392      0
+
+[5 rows x 20 columns]
+(2132, 19) (534, 19) (2132,) (534,)
+Logistic Regression Metrics:
+Accuracy: 0.8633
+Precision: 0.6000
+Recall: 0.2278
+F1 Score: 0.3303
+ROC-AUC: 0.6007
+Confusion Matrix:
+[[443  12]
+ [ 61  18]]
+
+
+Random Forest Metrics:
+Accuracy: 0.9513
+Precision: 0.9818
+Recall: 0.6835
+F1 Score: 0.8060
+ROC-AUC: 0.8407
+Confusion Matrix:
+[[454   1]
+ [ 25  54]]
+
+
+Gradient Boosting Metrics:
+Accuracy: 0.9588
+Precision: 0.9672
+Recall: 0.7468
+F1 Score: 0.8429
+ROC-AUC: 0.8712
+Confusion Matrix:
+[[453   2]
+ [ 20  59]]
+
+
